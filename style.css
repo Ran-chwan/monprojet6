@@ -1,0 +1,51 @@
+/*
+Theme Name: twentytwentyfour-child
+Theme URI: 
+Description: Mon thème enfant personnalisé
+Author: Ton nom
+Author URI: http://tonsite.com
+Template: nom-du-theme-parent
+Version: 1.0
+*/
+
+@import url('style.css');
+
+#site-header {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+#site-header .logo a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#site-header .nav-links {
+    float: right;
+}
+
+#site-header .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#site-header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+button.commander-button {
+    background-color: #dc9f96;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.commander-button:hover {
+    background-color: #e4b4a7; 
+}
