@@ -1,0 +1,33 @@
+/*
+Theme Name: twentytwentyfour-child
+Theme URI: 
+Description: Mon thème enfant personnalisé
+Author: RaniaS
+Author URI: http://localhost/wordpress/
+Template: twentytwentyfour
+Version: 1.0
+*/
+
+/* ---------- HEADER ---------- */
+
+#site-header {
+    background-color: white;
+    padding: 10px;
+}
+
+#site-header .logo a {
+    color: #db9e95; 
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+#site-header .nav-links {
+    float: right;
+}
+
+#site-header .nav-links a {
+    color: white;
+    margin-left: 20;
+}
